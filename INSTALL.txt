@@ -95,7 +95,7 @@
   OWNER=franco:franco
 
   cd "$BASE"
-  git clone https://github.com/Onidesk-TI/beaver-skeleton.git beaver-skeleton
+  git clone https://github.com/Onidesk-TI/beaver-console.git beaver-skeleton
   cd "$PLUGIN"
   composer install
 
@@ -123,12 +123,12 @@
   -------------------------
 
     cd /var/www/onidesk
-    git clone https://github.com/Onidesk-TI/beaver-skeleton.git beaver-skeleton
+    git clone https://github.com/Onidesk-TI/beaver-console.git beaver-skeleton
     cd beaver-skeleton
 
     Se for privado, usa token:
 
-    git clone https://<seu-token>@github.com/Onidesk-TI/beaver-skeleton.git beaver-skeleton
+    git clone https://<seu-token>@github.com/Onidesk-TI/beaver-console.git beaver-skeleton
 
     Se já tens ZIP:
 
@@ -640,7 +640,7 @@
   README.txt     -> visão geral
   HELP.txt       -> guia de desenvolvimento
   CHANGELOG.txt  -> histórico
-  Repo           -> https://github.com/Onidesk-TI/beaver-skeleton
+  Repo           -> https://github.com/Onidesk-TI/beaver-console
 
 ========================================================================
   Beaver Skeleton - MIT (c) Onidesk

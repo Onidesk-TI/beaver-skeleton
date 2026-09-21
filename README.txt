@@ -6,7 +6,7 @@
 License : MIT
 PHP     : >= 8.1
 Type    : beaver-plugin
-Repo    : https://github.com/Onidesk-TI/beaver-skeleton
+Repo    : https://github.com/Onidesk-TI/beaver-console
 
 ------------------------------------------------------------------------
   O QUE É
@@ -27,7 +27,7 @@ em segundos. Traz:
 ------------------------------------------------------------------------
 
   # 1. Clonar para o teu plugin
-  git clone https://github.com/Onidesk-TI/beaver-skeleton.git meu-plugin
+  git clone https://github.com/Onidesk-TI/beaver-console.git meu-plugin
   cd meu-plugin
 
   # 2. Renomear (substituir "Skeleton" pelo teu nome)

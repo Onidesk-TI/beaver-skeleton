@@ -1,5 +1,5 @@
 {
-    "name": "onidesk/beaver-skeleton",
+    "name": "onidesk/beaver-console",
     "description": "Beaver Skeleton — esqueleto oficial para criar plugins Beaver",
     "type": "beaver-plugin",
     "license": "GPL-3.0-or-later",
