@@ -2,30 +2,20 @@
     "name": "beaverphp/skeleton",
     "description": "Esqueleto de projecto limpo para o Beaver Framework",
     "type": "project",
-    "license": "GPL-3.0-or-later",
+    "license": "MIT",
     "require": {
         "php": ">=8.1",
-        "ext-json": "*",
-        "ext-pdo": "*",
-        "vlucas/phpdotenv": "^5.7"
+        "beaverphp/framework": "*"
     },
     "autoload": {
         "psr-4": {
-            "Beaver\\Plugins\\Skeleton\\": "src/"
+            "App\\": "app/"
         }
     },
-    "config": {
-        "sort-packages": true
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^10.0"
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Beaver\\Plugins\\Skeleton\\Tests\\": "tests/"
-        },
-        "classmap": [
-            "tests/Stubs/"
+    "scripts": {
+        "post-create-project-cmd": [
+            "cp .env.example .env",
+            "echo 'Projecto Beaver criado. Edita o .env e corre: php -S localhost:8000 -t public'"
         ]
     }
 }
