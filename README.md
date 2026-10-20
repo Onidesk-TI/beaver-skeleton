@@ -1,4 +1,8 @@
-# Beaver Framework - Skeleton
+# Beaver Framework — Skeleton
+
+[![Packagist Version](https://img.shields.io/packagist/v/beaverphp/skeleton?style=flat-square&color=E07800)](https://packagist.org/packages/beaverphp/skeleton)
+[![Framework](https://img.shields.io/badge/framework-beaverphp%2Fframework-E07800?style=flat-square)](https://packagist.org/packages/beaverphp/framework)
+[![Tests](https://github.com/Onidesk-TI/beaver-framework-core/actions/workflows/tests.yml/badge.svg)](https://github.com/Onidesk-TI/beaver-framework-core/actions/workflows/tests.yml)
 
 Projecto limpo para comecar a usar o Beaver Framework.
 
@@ -21,3 +25,9 @@ Projecto limpo para comecar a usar o Beaver Framework.
 
 - PHP >= 8.1
 - Composer
+
+## Links
+
+- [Packagist](https://packagist.org/packages/beaverphp/skeleton)
+- [GitHub](https://github.com/Onidesk-TI/beaver-skeleton)
+- [Framework](https://packagist.org/packages/beaverphp/framework)
